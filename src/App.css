@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+
+
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.quote {
+    background-color: #a2a2a2;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 1px 1px 20px #0005;
+    overflow: hidden;
+    width: 500px;
+}
+
+.quote__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.quote__text i {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.quote h1 {
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.quote p {
+    text-align: end;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+
+.btn__button {
+    color: white;
+    border: 0;
+    width: 40px;
+    aspect-ratio: 1;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+    transition: box-shadow 200ms ease;
+}
+
+.btn__button:hover {
+    box-shadow: 0 0 5px #000;
+    transition: box-shadow 200ms ease;
+}
