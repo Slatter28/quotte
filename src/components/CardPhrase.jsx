@@ -1,5 +1,6 @@
 import React from 'react'
-import ButtonPhrase from './buttonPhrase'
+import ButtonPhrase from './ButtonPhrase'
+
 
 const CardPhrase = ({ randomQuote, randomColors, getRandomAll }) => {
 
